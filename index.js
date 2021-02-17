@@ -13,5 +13,5 @@ server.listen(port, function () {
 });
 
 httpServer.listen(wsPort, function () {
-  console.log("Servidor rodando via WebSocket ws:// ", port);
+  console.log("Servidor rodando via WebSocket ws:// ", wsPort);
 });
